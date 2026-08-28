@@ -1,0 +1,145 @@
+{
+  "generated_date": "2026-08-27",
+  "metrics": {
+    "VCB": {
+      "return_30d_pct": 3.6,
+      "volatility_pct": 1.76,
+      "trend": "tăng",
+      "trend_slope_pct": 0.279,
+      "volume_trend_pct": -2.01,
+      "last_close": 60.1,
+      "first_close_30d": 58.01,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "VIC": {
+      "return_30d_pct": 7.27,
+      "volatility_pct": 2.76,
+      "trend": "sideway",
+      "trend_slope_pct": -0.037,
+      "volume_trend_pct": 30.36,
+      "last_close": 236.0,
+      "first_close_30d": 220.0,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "VHM": {
+      "return_30d_pct": 5.05,
+      "volatility_pct": 2.95,
+      "trend": "tăng",
+      "trend_slope_pct": 0.242,
+      "volume_trend_pct": -13.92,
+      "last_close": 73.8,
+      "first_close_30d": 70.25,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "HPG": {
+      "return_30d_pct": 1.6,
+      "volatility_pct": 1.96,
+      "trend": "sideway",
+      "trend_slope_pct": 0.139,
+      "volume_trend_pct": -13.66,
+      "last_close": 22.2,
+      "first_close_30d": 21.85,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "TCB": {
+      "return_30d_pct": 8.43,
+      "volatility_pct": 2.44,
+      "trend": "tăng",
+      "trend_slope_pct": 0.413,
+      "volume_trend_pct": 10.06,
+      "last_close": 34.1,
+      "first_close_30d": 31.45,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "MBB": {
+      "return_30d_pct": 6.42,
+      "volatility_pct": 1.88,
+      "trend": "tăng",
+      "trend_slope_pct": 0.429,
+      "volume_trend_pct": -16.11,
+      "last_close": 21.05,
+      "first_close_30d": 19.78,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "VNM": {
+      "return_30d_pct": 5.93,
+      "volatility_pct": 1.52,
+      "trend": "tăng",
+      "trend_slope_pct": 0.308,
+      "volume_trend_pct": -25.18,
+      "last_close": 62.5,
+      "first_close_30d": 59.0,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "FPT": {
+      "return_30d_pct": 7.76,
+      "volatility_pct": 2.08,
+      "trend": "tăng",
+      "trend_slope_pct": 0.379,
+      "volume_trend_pct": -15.27,
+      "last_close": 72.2,
+      "first_close_30d": 67.0,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "MSN": {
+      "return_30d_pct": 3.24,
+      "volatility_pct": 1.71,
+      "trend": "tăng",
+      "trend_slope_pct": 0.237,
+      "volume_trend_pct": 16.62,
+      "last_close": 70.2,
+      "first_close_30d": 68.0,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    },
+    "BID": {
+      "return_30d_pct": 1.73,
+      "volatility_pct": 1.89,
+      "trend": "tăng",
+      "trend_slope_pct": 0.309,
+      "volume_trend_pct": -17.64,
+      "last_close": 36.95,
+      "first_close_30d": 36.32,
+      "n_days": 30,
+      "date_range": [
+        "2026-07-17",
+        "2026-08-27"
+      ]
+    }
+  }
+}
