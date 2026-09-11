@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>VN Stock Daily Briefing — 2026-09-11</title>
+<style>
+  :root{
+    --bg:#ffffff; --ink:#111827; --muted:#6b7280; --line:#e5e7eb;
+    --good:#16a34a; --goodbg:#f0fdf4;
+    --warn:#d97706; --warnbg:#fffbeb;
+    --bad:#dc2626; --badbg:#fef2f2;
+    --accent:#2563eb;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:28px 40px; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif;
+    max-width:900px; margin:0 auto; line-height:1.4;
+  }
+  h1{font-size:22px; margin:0 0 2px 0;}
+  .subtitle{color:var(--muted); font-size:13px; margin:0 0 18px 0;}
+  h2{font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:22px 0 8px 0; border-bottom:1px solid var(--line); padding-bottom:4px;}
+  table{width:100%; border-collapse:collapse; font-size:13px;}
+  th{text-align:right; font-weight:600; color:var(--muted); font-size:11px; text-transform:uppercase; padding:6px 8px; border-bottom:2px solid var(--line);}
+  th:first-child, td:first-child{text-align:left;}
+  td{padding:6px 8px; border-bottom:1px solid var(--line); text-align:right;}
+  tr:last-child td{border-bottom:none;}
+  .ticker{font-weight:700;}
+  .badge{display:inline-block; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600; white-space:nowrap;}
+  .badge-good{background:var(--goodbg); color:var(--good);}
+  .badge-warn{background:var(--warnbg); color:var(--warn);}
+  .badge-bad{background:var(--badbg); color:var(--bad);}
+  .pos{color:var(--good);}
+  .neg{color:var(--bad);}
+  .chart-wrap{border:1px solid var(--line); border-radius:8px; padding:12px 12px 4px 12px;}
+  .picks{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:8px;}
+  .pick{border:1px solid var(--line); border-radius:8px; padding:12px;}
+  .pick .rank{font-size:11px; color:var(--muted); font-weight:600; text-transform:uppercase;}
+  .pick .name{font-size:16px; font-weight:700; margin:2px 0 6px 0;}
+  .pick .stat{font-size:12px; color:var(--muted); margin-bottom:6px;}
+  .pick p{font-size:12.5px; margin:0; color:#374151;}
+  footer{margin-top:20px; font-size:11px; color:var(--muted); text-align:center;}
+</style>
+</head>
+<body>
+
+<h1>VN Stock Daily Briefing — 11/09/2026</h1>
+<p class="subtitle">Dữ liệu tính đến 09/09/2026 · 10 mã theo dõi · Cửa sổ phân tích: 30 phiên gần nhất</p>
+
+<h2>Tóm tắt 10 mã</h2>
+<table>
+  <thead>
+    <tr><th>Mã</th><th>Return 30D</th><th>Volatility</th><th>Trend</th><th>Khuyến nghị</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="ticker">FPT</td><td class="pos">+16.40%</td><td>1.88%</td><td>Tăng</td><td><span class="badge badge-good">✅ Nên xem xét</span></td></tr>
+    <tr><td class="ticker">BID</td><td class="pos">+12.07%</td><td>1.43%</td><td>Tăng</td><td><span class="badge badge-good">✅ Nên xem xét</span></td></tr>
+    <tr><td class="ticker">MBB</td><td class="pos">+12.04%</td><td>1.71%</td><td>Tăng</td><td><span class="badge badge-good">✅ Nên xem xét</span></td></tr>
+    <tr><td class="ticker">VIC</td><td class="pos">+16.02%</td><td>2.54%</td><td>Tăng</td><td><span class="badge badge-warn">⚠️ Theo dõi thêm</span></td></tr>
+    <tr><td class="ticker">TCB</td><td class="pos">+14.69%</td><td>2.34%</td><td>Tăng</td><td><span class="badge badge-warn">⚠️ Theo dõi thêm</span></td></tr>
+    <tr><td class="ticker">VCB</td><td class="pos">+8.70%</td><td>1.57%</td><td>Tăng</td><td><span class="badge badge-warn">⚠️ Theo dõi thêm</span></td></tr>
+    <tr><td class="ticker">MSN</td><td class="pos">+7.04%</td><td>1.46%</td><td>Tăng</td><td><span class="badge badge-warn">⚠️ Theo dõi thêm</span></td></tr>
+    <tr><td class="ticker">VNM</td><td class="pos">+5.87%</td><td>1.47%</td><td>Tăng</td><td><span class="badge badge-bad">❌ Tránh / chờ</span></td></tr>
+    <tr><td class="ticker">VHM</td><td class="pos">+10.08%</td><td>2.54%</td><td>Tăng</td><td><span class="badge badge-bad">❌ Tránh / chờ</span></td></tr>
+    <tr><td class="ticker">HPG</td><td class="pos">+8.35%</td><td>1.64%</td><td>Sideway</td><td><span class="badge badge-bad">❌ Tránh / chờ</span></td></tr>
+  </tbody>
+</table>
+
+<h2>Performance 30 phiên (Close, chuẩn hóa về 100)</h2>
+<div class="chart-wrap">
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:Inter,Arial,sans-serif;">
+<line x1="40" y1="195.0" x2="660" y2="195.0" stroke="#eee" stroke-width="1"/>
+<text x="32" y="198.0" font-size="9" fill="#999" text-anchor="end">100</text>
+<line x1="40" y1="126.6" x2="660" y2="126.6" stroke="#eee" stroke-width="1"/>
+<text x="32" y="129.6" font-size="9" fill="#999" text-anchor="end">110</text>
+<line x1="40" y1="58.2" x2="660" y2="58.2" stroke="#eee" stroke-width="1"/>
+<text x="32" y="61.2" font-size="9" fill="#999" text-anchor="end">120</text>
+<line x1="40" y1="195.0" x2="660" y2="195.0" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="40.0" y="284" font-size="8" fill="#999" text-anchor="middle">07-27</text>
+<text x="168.3" y="284" font-size="8" fill="#999" text-anchor="middle">08-04</text>
+<text x="296.6" y="284" font-size="8" fill="#999" text-anchor="middle">08-12</text>
+<text x="403.4" y="284" font-size="8" fill="#999" text-anchor="middle">08-19</text>
+<text x="531.7" y="284" font-size="8" fill="#999" text-anchor="middle">08-27</text>
+<text x="660.0" y="284" font-size="8" fill="#999" text-anchor="middle">09-09</text>
+<polyline points="40.0,195.0 61.4,193.7 82.8,187.4 104.1,163.3 125.5,127.9 146.9,108.8 168.3,119.0 189.7,127.9 211.0,131.7 232.4,122.8 253.8,115.2 275.2,121.5 296.6,122.8 317.9,125.3 339.3,138.0 360.7,141.8 382.1,144.3 403.4,151.9 424.8,146.9 446.2,130.4 467.6,129.1 489.0,126.6 510.3,115.2 531.7,117.7 553.1,117.7 574.5,135.5 595.9,132.9 617.2,144.3 638.6,143.1 660.0,135.5" fill="none" stroke="#d1d5db" stroke-width="1.3" opacity="0.7"/>
+<polyline points="40.0,195.0 61.4,194.0 82.8,176.1 104.1,174.2 125.5,193.1 146.9,196.6 168.3,180.6 189.7,174.2 211.0,178.0 232.4,190.2 253.8,211.0 275.2,211.0 296.6,188.6 317.9,213.0 339.3,237.0 360.7,244.7 382.1,238.3 403.4,238.3 424.8,231.9 446.2,222.3 467.6,191.8 489.0,172.6 510.3,142.1 531.7,122.9 553.1,122.9 574.5,95.7 595.9,58.5 617.2,94.1 638.6,79.3 660.0,85.4" fill="none" stroke="#d1d5db" stroke-width="1.3" opacity="0.7"/>
+<polyline points="40.0,195.0 61.4,190.3 82.8,148.0 104.1,106.7 125.5,105.7 146.9,106.2 168.3,80.6 189.7,80.1 211.0,73.8 232.4,116.7 253.8,131.3 275.2,126.1 296.6,108.3 317.9,129.2 339.3,166.8 360.7,166.8 382.1,156.4 403.4,157.4 424.8,153.2 446.2,130.2 467.6,112.5 489.0,110.4 510.3,110.4 531.7,108.3 553.1,116.7 574.5,112.5 595.9,93.7 617.2,101.0 638.6,110.4 660.0,126.1" fill="none" stroke="#d1d5db" stroke-width="1.3" opacity="0.7"/>
+<polyline points="40.0,195.0 61.4,173.2 82.8,151.3 104.1,146.3 125.5,149.6 146.9,121.0 168.3,134.5 189.7,139.5 211.0,144.6 232.4,139.5 253.8,136.2 275.2,137.8 296.6,136.2 317.9,149.6 339.3,164.7 360.7,166.4 382.1,173.2 403.4,166.4 424.8,168.1 446.2,149.6 467.6,131.1 489.0,146.3 510.3,137.8 531.7,132.8 553.1,136.2 574.5,153.0 595.9,149.6 617.2,154.7 638.6,144.6 660.0,137.8" fill="none" stroke="#d1d5db" stroke-width="1.3" opacity="0.7"/>
+<polyline points="40.0,195.0 61.4,189.0 82.8,191.4 104.1,169.6 125.5,178.1 146.9,153.8 168.3,161.1 189.7,161.1 211.0,172.0 232.4,159.9 253.8,119.9 275.2,128.4 296.6,116.3 317.9,111.4 339.3,104.2 360.7,109.0 382.1,132.0 403.4,128.4 424.8,128.4 446.2,112.7 467.6,117.5 489.0,121.1 510.3,69.1 531.7,53.3 553.1,70.3 574.5,101.8 595.9,89.6 617.2,106.6 638.6,105.4 660.0,94.5" fill="none" stroke="#d1d5db" stroke-width="1.3" opacity="0.7"/>
+<polyline points="40.0,195.0 61.4,174.9 82.8,170.2 104.1,156.0 125.5,159.6 146.9,166.6 168.3,176.1 189.7,186.7 211.0,182.0 232.4,146.6 253.8,145.4 275.2,146.6 296.6,148.9 317.9,151.3 339.3,151.3 360.7,144.2 382.1,145.4 403.4,133.6 424.8,122.9 446.2,125.3 467.6,132.4 489.0,139.5 510.3,137.1 531.7,140.6 553.1,143.0 574.5,156.0 595.9,147.7 617.2,161.9 638.6,158.4 660.0,154.8" fill="none" stroke="#d1d5db" stroke-width="1.3" opacity="0.7"/>
+<polyline points="40.0,195.0 61.4,175.7 82.8,169.3 104.1,152.2 125.5,171.5 146.9,149.0 168.3,146.8 189.7,159.7 211.0,167.2 232.4,157.5 253.8,154.3 275.2,160.7 296.6,159.7 317.9,155.4 339.3,169.3 360.7,162.9 382.1,164.0 403.4,168.2 424.8,150.0 446.2,131.8 467.6,129.7 489.0,135.0 510.3,128.6 531.7,127.5 553.1,127.5 574.5,140.4 595.9,140.4 617.2,144.7 638.6,146.8 660.0,146.8" fill="none" stroke="#d1d5db" stroke-width="1.3" opacity="0.7"/>
+<polyline points="40.0,195.0 61.4,186.2 82.8,163.1 104.1,142.2 125.5,141.1 146.9,90.5 168.3,92.7 189.7,105.9 211.0,101.5 232.4,100.4 253.8,89.4 275.2,96.0 296.6,100.4 317.9,118.0 339.3,127.9 360.7,122.4 382.1,120.2 403.4,121.3 424.8,111.4 446.2,87.2 467.6,93.8 489.0,101.5 510.3,80.6 531.7,85.0 553.1,74.0 574.5,85.0 595.9,78.4 617.2,82.8 638.6,85.0 660.0,82.8" fill="none" stroke="#dc2626" stroke-width="2.2"/>
+<polyline points="40.0,195.0 61.4,187.2 82.8,180.3 104.1,144.7 125.5,129.9 146.9,125.1 168.3,129.9 189.7,129.9 211.0,132.0 232.4,109.3 253.8,100.4 275.2,108.2 296.6,105.3 317.9,113.3 339.3,125.1 360.7,123.0 382.1,120.9 403.4,127.2 424.8,124.0 446.2,101.9 467.6,101.9 489.0,106.1 510.3,101.9 531.7,100.8 553.1,102.9 574.5,111.4 595.9,110.3 617.2,120.9 638.6,116.6 660.0,112.4" fill="none" stroke="#2563eb" stroke-width="2.2"/>
+<polyline points="40.0,195.0 61.4,179.1 82.8,180.6 104.1,168.1 125.5,168.1 146.9,120.6 168.3,107.7 189.7,111.1 211.0,123.7 232.4,115.7 253.8,112.7 275.2,107.0 296.6,103.2 317.9,114.6 339.3,120.2 360.7,124.0 382.1,122.1 403.4,122.1 424.8,108.9 446.2,88.0 467.6,91.8 489.0,95.6 510.3,80.4 531.7,80.4 553.1,80.4 574.5,97.5 595.9,99.4 617.2,112.7 638.6,114.6 660.0,112.7" fill="none" stroke="#16a34a" stroke-width="2.2"/>
+<text x="666" y="86.8" font-size="11" fill="#dc2626" font-weight="600">FPT 116.4</text>
+<text x="666" y="116.4" font-size="11" fill="#2563eb" font-weight="600">BID 112.1</text>
+<text x="666" y="130.4" font-size="11" fill="#16a34a" font-weight="600">MBB 112.0</text>
+</svg>
+</div>
+
+<h2>Top picks hôm nay</h2>
+<div class="picks">
+  <div class="pick">
+    <div class="rank">#1</div>
+    <div class="name">FPT</div>
+    <div class="stat">+16.40% (30D) · Vol 1.88% · Trend tăng</div>
+    <p>Return cao nhất toàn nhóm với tỷ lệ return/rủi ro tốt nhất (volatility chỉ 1.88%). Xu hướng tăng bền suốt 30 phiên, dù volume 7 ngày gần đây giảm nhẹ -11% so với trung bình.</p>
+  </div>
+  <div class="pick">
+    <div class="rank">#2</div>
+    <div class="name">BID</div>
+    <div class="stat">+12.07% (30D) · Vol 1.43% · Trend tăng</div>
+    <p>Volatility thấp nhất trong 10 mã, mức tăng đến từ xu hướng ổn định. Phù hợp khẩu vị rủi ro thấp, dù volume đang co lại -29% so với trung bình kỳ.</p>
+  </div>
+  <div class="pick">
+    <div class="rank">#3</div>
+    <div class="name">MBB</div>
+    <div class="stat">+12.04% (30D) · Vol 1.71% · Trend tăng</div>
+    <p>Đà tăng giá mạnh và ổn định (slope cao nhất nhóm ngân hàng), rủi ro thấp. Volume 7 ngày giảm -19% nên cần theo dõi thêm dòng tiền trước khi vào thêm.</p>
+  </div>
+</div>
+
+<footer>VN Stock Daily Analyst · Nguồn: data/stock_data.csv (VCI) · Không phải khuyến nghị đầu tư chính thức</footer>
+
+</body>
+</html>
