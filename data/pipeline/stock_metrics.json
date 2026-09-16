@@ -1,145 +1,158 @@
 {
-  "generated_date": "2026-08-27",
-  "metrics": {
+  "latest_date": "2026-09-14",
+  "window_size": 30,
+  "tickers": {
     "VCB": {
-      "return_30d_pct": 3.6,
-      "volatility_pct": 1.76,
-      "trend": "tăng",
-      "trend_slope_pct": 0.279,
-      "volume_trend_pct": -2.01,
-      "last_close": 60.1,
-      "first_close_30d": 58.01,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": 3.54,
+      "volatility_pct": 1.47,
+      "trend": "Sideway",
+      "slope_pct_per_day": -0.0369,
+      "volume_trend_pct": -15.2,
+      "risk_adj_score": 2.403,
+      "recommendation": "warn"
     },
     "VIC": {
-      "return_30d_pct": 7.27,
-      "volatility_pct": 2.76,
-      "trend": "sideway",
-      "trend_slope_pct": -0.037,
-      "volume_trend_pct": 30.36,
-      "last_close": 236.0,
-      "first_close_30d": 220.0,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": 9.73,
+      "volatility_pct": 2.55,
+      "trend": "Tăng",
+      "slope_pct_per_day": 0.6337,
+      "volume_trend_pct": -7.34,
+      "risk_adj_score": 3.817,
+      "recommendation": "good"
     },
     "VHM": {
-      "return_30d_pct": 5.05,
-      "volatility_pct": 2.95,
-      "trend": "tăng",
-      "trend_slope_pct": 0.242,
-      "volume_trend_pct": -13.92,
-      "last_close": 73.8,
-      "first_close_30d": 70.25,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": -3.04,
+      "volatility_pct": 2.06,
+      "trend": "Sideway",
+      "slope_pct_per_day": -0.0579,
+      "volume_trend_pct": 41.81,
+      "risk_adj_score": -1.479,
+      "recommendation": "bad"
     },
     "HPG": {
-      "return_30d_pct": 1.6,
-      "volatility_pct": 1.96,
-      "trend": "sideway",
-      "trend_slope_pct": 0.139,
-      "volume_trend_pct": -13.66,
-      "last_close": 22.2,
-      "first_close_30d": 21.85,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": -4.13,
+      "volatility_pct": 1.56,
+      "trend": "Sideway",
+      "slope_pct_per_day": -0.0635,
+      "volume_trend_pct": -12.55,
+      "risk_adj_score": -2.651,
+      "recommendation": "bad"
     },
     "TCB": {
-      "return_30d_pct": 8.43,
-      "volatility_pct": 2.44,
-      "trend": "tăng",
-      "trend_slope_pct": 0.413,
-      "volume_trend_pct": 10.06,
-      "last_close": 34.1,
-      "first_close_30d": 31.45,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": 8.7,
+      "volatility_pct": 2.34,
+      "trend": "Tăng",
+      "slope_pct_per_day": 0.3558,
+      "volume_trend_pct": -34.63,
+      "risk_adj_score": 3.718,
+      "recommendation": "good"
     },
     "MBB": {
-      "return_30d_pct": 6.42,
-      "volatility_pct": 1.88,
-      "trend": "tăng",
-      "trend_slope_pct": 0.429,
-      "volume_trend_pct": -16.11,
-      "last_close": 21.05,
-      "first_close_30d": 19.78,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": 5.12,
+      "volatility_pct": 1.69,
+      "trend": "Tăng",
+      "slope_pct_per_day": 0.1183,
+      "volume_trend_pct": -3.76,
+      "risk_adj_score": 3.032,
+      "recommendation": "warn"
     },
     "VNM": {
-      "return_30d_pct": 5.93,
-      "volatility_pct": 1.52,
-      "trend": "tăng",
-      "trend_slope_pct": 0.308,
-      "volume_trend_pct": -25.18,
-      "last_close": 62.5,
-      "first_close_30d": 59.0,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": -3.1,
+      "volatility_pct": 1.43,
+      "trend": "Sideway",
+      "slope_pct_per_day": 0.036,
+      "volume_trend_pct": -34.66,
+      "risk_adj_score": -2.176,
+      "recommendation": "bad"
     },
     "FPT": {
-      "return_30d_pct": 7.76,
-      "volatility_pct": 2.08,
-      "trend": "tăng",
-      "trend_slope_pct": 0.379,
-      "volume_trend_pct": -15.27,
-      "last_close": 72.2,
-      "first_close_30d": 67.0,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": 8.06,
+      "volatility_pct": 1.88,
+      "trend": "Tăng",
+      "slope_pct_per_day": 0.195,
+      "volume_trend_pct": -3.54,
+      "risk_adj_score": 4.296,
+      "recommendation": "good"
     },
     "MSN": {
-      "return_30d_pct": 3.24,
-      "volatility_pct": 1.71,
-      "trend": "tăng",
-      "trend_slope_pct": 0.237,
-      "volume_trend_pct": 16.62,
-      "last_close": 70.2,
-      "first_close_30d": 68.0,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": -1.91,
+      "volatility_pct": 1.43,
+      "trend": "Sideway",
+      "slope_pct_per_day": 0.0791,
+      "volume_trend_pct": -14.92,
+      "risk_adj_score": -1.338,
+      "recommendation": "warn"
     },
     "BID": {
-      "return_30d_pct": 1.73,
-      "volatility_pct": 1.89,
-      "trend": "tăng",
-      "trend_slope_pct": 0.309,
-      "volume_trend_pct": -17.64,
-      "last_close": 36.95,
-      "first_close_30d": 36.32,
-      "n_days": 30,
-      "date_range": [
-        "2026-07-17",
-        "2026-08-27"
-      ]
+      "dates_window": [
+        "2026-07-30",
+        "2026-09-14"
+      ],
+      "n_sessions": 30,
+      "return_30d_pct": 2.52,
+      "volatility_pct": 1.17,
+      "trend": "Sideway",
+      "slope_pct_per_day": 0.0605,
+      "volume_trend_pct": -25.44,
+      "risk_adj_score": 2.158,
+      "recommendation": "warn"
     }
-  }
+  },
+  "ranking": [
+    "FPT",
+    "VIC",
+    "TCB",
+    "MBB",
+    "VCB",
+    "BID",
+    "MSN",
+    "VHM",
+    "VNM",
+    "HPG"
+  ]
 }
